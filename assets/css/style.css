@@ -1,0 +1,10 @@
+body, 
+html {
+	min-height: 100%;
+}
+
+body {
+	background-image: url(https://curvesandskulls.files.wordpress.com/2015/01/marilyn-monroe-images-hd-wallpaper-desktop.jpg?w=980);
+	background-size:cover;
+	background-repeat: no-repeat;
+}
