@@ -8,7 +8,7 @@ $(document).on('click', '#start', function () {
 
 });
 
-$(document).on('click', '#reset', function () {
+$(document).on('click', '#start-over', function () {
     game.reset();
 });
 
@@ -82,7 +82,10 @@ var game = {
         game.done()
     },
     reset: function () {
-        location.reload();
+        game.correct = 0
+        game.incorrect = 0
+        game.counter = 50
+        game.startGame()
 
     },
 
